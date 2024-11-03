@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.resources {
+    padding: 20px;
+    text-align: center;
+}
+
+.resource-list {
+    display: flex;
+    justify-content: center;
+}
+
+.resource-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    padding: 20px;
+    text-align: center;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    background: #007BFF;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+    background: #0056b3;
+}
+
+.accordion-content {
+    padding: 0 15px;
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
